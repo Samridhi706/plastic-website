@@ -12,12 +12,12 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
@@ -92,12 +92,12 @@ body {
   opacity: 0.85;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .navbar {
     background: rgba(10, 10, 10, 0.7);
     border-bottom: 1px solid rgba(255, 255, 255, 0.04);
   }
-}
+} */
 
 /* Hero overlay — darker and blurred so text stands out */
 .hero-overlay {
