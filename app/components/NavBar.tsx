@@ -28,11 +28,11 @@ export default function NavBar() {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-8 text-[#0B3C5D]">
             <Link className="hover:text-cyan-600 transition" href="/">Home</Link>
             <Link className="hover:text-cyan-600 transition" href="/products">Products</Link>
-            <Link className="hover:text-cyan-600 transition" href="/about-us">About Us</Link>
-            <Link className="hover:text-cyan-600 transition" href="/contact-us">Contact Us</Link>
+            <Link className="hover:text-cyan-600 transition" href="#AboutUs">About Us</Link>
+            <Link className="hover:text-cyan-600 transition" href="#contact-us">Contact Us</Link>
           </nav>
 
           {/* Hamburger */}
@@ -78,8 +78,8 @@ export default function NavBar() {
           {[
             { href: "/", label: "Home" },
             { href: "/products", label: "Products" },
-            { href: "/about-us", label: "About Us" },
-            { href: "/contact-us", label: "Contact Us" },
+            { href: "#AboutUs", label: "About Us" },
+            { href: "#contact-us", label: "Contact Us" },
           ].map((item) => (
             <Link
               key={item.href}
