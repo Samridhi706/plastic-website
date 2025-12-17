@@ -26,7 +26,8 @@ export default function Herosection() {
 
   return (
     <>
-      <section className="relative w-full h-[400px] md:h-[450px]">
+      {/* HERO SECTION */}
+      <section className="relative w-full h-[400px] md:h-[500px]">
         {/* Background */}
         <img
           src="/image (5).jpg"
@@ -51,7 +52,6 @@ export default function Herosection() {
           ref={wrapperRef}
           className="absolute bottom-6 right-6 md:bottom-10 md:right-10"
         >
-          {/* Action Buttons */}
           {open && (
             <div className="absolute bottom-full right-0 mb-4 flex flex-col gap-3 z-50">
               <a
@@ -73,7 +73,7 @@ export default function Herosection() {
               </a>
 
               <a
-                href="mailto:info@rrenterprise.com"
+                href="mailto:arunrrenterprises.09@gmail.com"
                 className="flex items-center gap-3 px-4 py-2 bg-white rounded-md shadow-md hover:bg-cyan-100"
               >
                 <FiMail className="text-cyan-600 text-xl" />
@@ -82,7 +82,6 @@ export default function Herosection() {
             </div>
           )}
 
-          {/* Main Button */}
           <button
             onClick={() => setOpen(!open)}
             className="px-8 py-3 text-lg font-semibold text-white
@@ -94,6 +93,19 @@ export default function Herosection() {
           </button>
         </div>
       </section>
+
+    {/* STATIC ADDRESS BAR */}
+{/* SMALL STATIC ADDRESS BAR */}
+<section className="w-full bg-[#0B3C5D]">
+  <div className="max-w-7xl mx-auto px-4 py-2 text-left text-white text-sm md:text-base font-medium">
+    📍 <span className="font-semibold">Address:</span>
+    &nbsp;Plot No.129, Ground Floor, Sector 2, Block-i, Bawana Industrial Area, Delhi-110039, India
+  </div>
+</section>
+
+
+
+      
     </>
   );
 }
