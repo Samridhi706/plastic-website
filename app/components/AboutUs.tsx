@@ -67,7 +67,7 @@ export default function AboutUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
           <div className="relative w-full max-w-md mx-auto h-64 md:h-72">
             <Image
-              src="/sorting11.jpg"
+              src="/sortinggg.webp"
               alt="Sorting plastic flakes"
               fill
               className="object-cover rounded-lg shadow-md"
