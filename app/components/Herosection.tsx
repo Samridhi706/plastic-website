@@ -30,7 +30,7 @@ export default function Herosection() {
       <section className="relative w-full h-[400px] md:h-[500px]">
         {/* Background */}
         <img
-          src="/image (5).jpg"
+          src="/image.jpg"
           alt="Hero"
           className="absolute inset-0 w-full h-full object-cover blur-[1px]"
         />
