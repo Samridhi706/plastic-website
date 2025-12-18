@@ -43,7 +43,7 @@ export default function Herosection() {
           </h1>
 
           <p className="text-white text-lg md:text-xl max-w-2xl">
-            Deals in all Kind of Plastic Waste Scrap Granuals
+            Deals in all Kind of Plastic Waste Scrap Granules
           </p>
         </div>
 
