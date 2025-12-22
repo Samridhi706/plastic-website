@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "postbuild": "next-sitemap"
+    "lint": "eslint"
+    
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
