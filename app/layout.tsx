@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/icon.png",
   },
+  verification: {
+    google: "ZlAHeSCWIBqCuDa2cQb2nZSq6V9TkAp2qTYFonmdWmg",
+  },
 };
 
 export default function RootLayout({
@@ -26,6 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+    <head><meta name="google-site-verification" content="ZlAHeSCWIBqCuDa2cQb2nZSq6V9TkAp2qTYFonmdWmg" /></head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NavBar />
         {children}
